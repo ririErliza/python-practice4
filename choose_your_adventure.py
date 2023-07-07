@@ -1,4 +1,5 @@
-import cryptography as cry
+from cryptography.fernet import Fernet  as crypt
+
 
 
 name = input("What is your name: ")
